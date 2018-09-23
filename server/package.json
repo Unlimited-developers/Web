@@ -1,0 +1,26 @@
+{
+  "name": "ste-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "html2plaintext": "^2.0.1",
+    "meetup-api": "^1.4.32",
+    "moment": "^2.22.2",
+    "mongoose": "^5.2.5",
+    "morgan": "^1.9.0",
+    "node-schedule": "^1.3.0",
+    "producthunt": "^0.3.0",
+    "request": "^2.87.0",
+    "tracer": "^0.9.1"
+  }
+}

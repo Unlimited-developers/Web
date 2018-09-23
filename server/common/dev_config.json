@@ -1,0 +1,50 @@
+{
+    "port": 3000,
+    "jwtSecretKey": "wj6aQMAclS",
+    "eventPerPage" : 21,
+    "db": {
+        "name": "ste",
+        "host": "localhost",
+        "port": "27017",
+        "username": "",
+        "password": ""
+    },
+    "google": {
+        "clientId": "686472835400-hal2orb6v8medpooci3j16gclnnq7hm7.apps.googleusercontent.com",
+        "clientSecret": "lD8hIgl-K0O_pFYxoXy3B1O6'",
+        "redirectUri": "http://localhost:3000/auth/callback/google"
+    },
+    "facebook": {
+        "clientId": "177951836231305",
+        "clientSecret": "ee7d3ecb7a4abdd218fc7bb165a03eaa'",
+        "redirectUri": "http://localhost:3000/auth/callback/facebook"
+    },
+    "linkedin": {
+        "clientId": "81m9ud8ohpmdcx",
+        "clientSecret": "mnXsxKOkwBaZrOJy'",
+        "redirectUri": "http://localhost:3000/auth/callback/linkedin"
+    },
+    "twitter": {
+        "clientId": "",
+        "clientSecret": "",
+        "redirectUri": "http://localhost:3000/auth/callback/twitter"
+    },
+    "meetup": {
+        "key": "2a2869383f7c53557f77163b676333",
+        "cronExpression": "*/5 * * * *"
+    },
+    "evenbrite": {
+        "token": "OJRWTGNQXLAYOST4YGJO",
+        "cronExpression": "*/5 * * * *"
+    },
+    "producthunt": {
+        "clientId": "81fa031e08c89f748de7a29288d1c3b72293b8ce75b06b5d8e4ad22c697e5941",
+        "clientSecret": "8ce0c7602e0be523604da6f63ef252aa04ce970965d6b70eda879b5a9922dece",
+        "cronExpression": "*/5 * * * *"
+    },
+    "placesApi" :{
+        "url" : "https://maps.googleapis.com/maps/api/place/nearbysearch/json",
+        "key" : "AIzaSyAeafIm7S7bfWiSs-u3gTr92vX7oG31k4A",
+        "distance" : 5000
+    }
+}
